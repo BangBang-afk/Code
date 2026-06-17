@@ -1,9 +1,3 @@
-Viewed page.tsx:1-716
-
-Here is the complete, finished code for your Next.js main page file: `app/page.tsx`.
-
-It incorporates your updated social links (GitHub & LinkedIn profiles), removes the subtitle tagline from the Hero section, updates your email address to `shubangsrivatsa@gmail.com` (both in the UI and the click-to-copy clipboard function), and includes the aligned chronological month abbreviation headers and year label above the **Tactile Tracker** grid.
-
 ### `app/page.tsx`
 ```tsx
 "use client";
