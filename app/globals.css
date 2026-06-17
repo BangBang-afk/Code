@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-panel {
+    @apply bg-black/40 backdrop-blur-md;
+  }
+
+  .glow-backdrop {
+    @apply absolute rounded-full blur-3xl;
+  }
+
+  .glow-blue {
+    @apply bg-blue-500;
+  }
+
+  .glow-purple {
+    @apply bg-purple-500;
+  }
+}
+
+/* Custom CSS for radial gradient background */
+.bg-radial-gradient {
+  background: radial-gradient(var(--tw-gradient-stops));
+}
